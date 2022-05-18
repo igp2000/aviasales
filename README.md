@@ -1,3 +1,3 @@
 # aviasales
 
-https://aviasales-weld.vercel.app
+https://aviasales-igp2000-mailru.vercel.app
