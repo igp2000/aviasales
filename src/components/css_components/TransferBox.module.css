@@ -1,0 +1,70 @@
+.count-transfer {
+  width: 100%;
+  max-width: 504px;
+  margin: 0 auto 20px auto;
+  padding-bottom: 10px;
+}
+
+@media screen and (min-width: 756px) {
+  .count-transfer {
+    margin-right: 20px;
+    width: 232px;
+  }
+}
+
+.count-transfer-title {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #4a4a4a;
+  margin: 20px 20px 10px 20px;
+}
+
+.count-transfer LABEL {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #4a4a4a;
+  position: relative;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.count-transfer LABEL:hover {
+  background-color: #f1fcff;
+}
+
+.count-transfer LABEL INPUT {
+  opacity: 0;
+}
+
+.count-transfer LABEL DIV {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #9abbce;
+  border-radius: 2px;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+
+.count-transfer LABEL SPAN {
+  margin-left: 10px;
+}
+
+.count-transfer LABEL > INPUT:checked + DIV {
+  border-color: #2196f3;
+  background: url(../css/img/galka.png) no-repeat center;
+}
